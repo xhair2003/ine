@@ -1,0 +1,295 @@
+
+
+
+.page-links {
+    width: 79%;
+    margin: 20px auto;
+    font-size: small;
+    
+}
+.page-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.page-links li {
+    margin-left: 10px;
+}
+
+.page-links li:hover{
+    color: rgb(42, 210, 42);
+}
+
+.product_name {
+    display: block;
+    width: 79%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    width: 79%;
+    margin: 0 auto;
+}
+
+.img_product{
+    position: relative;
+    background-color: aqua;
+    width: 520px;
+    height: 500px;
+    background-color: #00483d;
+}
+
+.khung{
+    background-color: red;
+    width: 96%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 25px;
+    height: 78%;
+}
+.pic_prd{
+    height: 100%;
+    background-color: #00483d;
+}
+.khung .pic_prd img{
+    height: 100%;
+}
+.nut_yeuthich{
+    position: absolute;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    text-align: center;
+    right: 0;
+    top: 10px;
+
+    
+    
+}
+
+.list_color_product{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22%;
+    margin-left:2% ;
+    margin-right:2% ;
+    background-color: #fff;
+}
+.list_color{
+    display: flex;
+    justify-content: center;
+}
+.list_color img{
+    width: 24%;
+    border: rgba(128, 128, 128, 0.285) solid 1px;
+}
+.nut_next{
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+    height: 20%;
+}
+
+.return {
+    background-color: rgba(79, 128, 128, 0.79);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 20px 8px;
+    margin-right: 10px;
+}
+
+.next {
+    background-color: rgba(79, 137, 114, 0.79);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px 8px;
+    margin-left: 10px;
+}
+
+.left_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 35%;
+}
+
+.right {
+    padding: 8px 19px;
+    background-color: #696868;
+    border-radius: 30px;
+    font-size: xx-large;
+}
+
+.left {
+    padding: 8px 19px;
+    background-color: #696868;
+    border-radius: 30px;
+    font-size: xx-large;
+}
+
+.Infor_Main{
+    background-color: violet;
+    width: 600px;
+    
+
+}
+
+.Infor_Main i{
+    font-size: x-large;
+}
+.Infor_Main p{
+    text-align: center;
+}
+.Infor_Price{
+    display: flex;
+    height: 45px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.Price_Ori h3{
+    color: rgb(244, 17, 17);
+    margin: 0 5px;
+    font-size: 40px;
+}
+
+.chitiet {    
+    border: 5px;
+    background-color: rgb(219, 216, 62);
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.free_ship p{
+    font-size: 20px;
+    color: #fff;
+    background-color: pink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.option_pb{
+    display: flex;
+    background-color: aquamarine ;
+
+}
+.radio-container{
+    box-sizing: border-box;
+    width: 125px;
+    height: 75px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #fff;
+    border: rgb(142, 131, 131) solid 1px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.radio-container p{
+    font-size: 16px;
+    color: red;
+}
+
+.tro_gia{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 7px;
+    
+}
+.tro_gia p{
+    padding-top: 2%;
+}
+
+.tro_gia h1{
+    margin-top: 0;
+    
+}
+
+
+.thanh_toan{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.pay{
+    margin: 2% 2%;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    width: 35%;
+}
+
+.cart{
+    margin: 2% 2%;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+
+}
+
+.option h3{
+    margin-left: 2%;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.Bao_hanh{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.title{
+    text-align: center;
+}
+
+.Inf_bhanh{
+    background-color: aqua;
+    width: 100%;
+    
+}
+
+.Address{
+    text-align: center;
+    width: 100%;
+    padding: 0 auto;
+    background-color: #696868;
+}
+
+.province{
+    height: 30%;
+    width: 80%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    border: gray solid 1px;
+
+}
+
+
+
